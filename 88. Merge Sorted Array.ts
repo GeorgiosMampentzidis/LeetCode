@@ -8,7 +8,7 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
     
     // some more edge-cases
     // it would be nice if nums1 = nums2 would be possible, but no new init is allowed
-    if (nums1.length == 0) {
+    if (m == 0) {
         nums2.forEach((num) => {
             nums1.push(num)
         });
